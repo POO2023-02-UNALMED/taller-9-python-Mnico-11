@@ -83,8 +83,6 @@ def clickBoton_igual():
     pantalla.delete(0, 'end')
     pantalla.insert(0, str(resultado))
 
-#pantalla.grid(row=0, column=0, columnspan=8, padx=1, pady=1)
-
 # Configuración pantalla de salida 
 pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
 pantalla.grid(row=0, column=0, columnspan=55, padx=1, pady=1)
